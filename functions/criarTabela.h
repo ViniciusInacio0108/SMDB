@@ -7,6 +7,7 @@ extern void criarTabela(char nomeDaTabela[25], char nomeDaColunaPrimaria[25])
     // pegar o nome das colunas
     int quantidadeDeColunas = 0;
     char nomeDaColunaAtual[25];
+    char nomeDoArquivoFinal[100] = "DB/";
     char nomeDasColunasConcatenadas[200];
 
     // concatenar nome da coluana primária
@@ -34,8 +35,9 @@ extern void criarTabela(char nomeDaTabela[25], char nomeDaColunaPrimaria[25])
     // gravar em arquivo a tabela criada
     FILE *file;
 
-    strcat(nomeDaTabela, ".txt");
-    fopen_s(&file, nomeDaTabela, "w");
+    strcat(nomeDoArquivoFinal, nomeDaTabela);
+    strcat(nomeDoArquivoFinal, ".txt");
+    fopen_s(&file, nomeDoArquivoFinal, "w");
 
     if (file == NULL)
     {

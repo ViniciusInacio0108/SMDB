@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
         if (respostaDoMainMenu == 1)
         {
             showCriarNovaTabelaMenu();
-        }
+                }
     }
 
     printf("\nTchau!");
