@@ -35,7 +35,7 @@ extern void showCriarNovaTabelaMenu()
         return;
     }
 
-    printf("%s, %s", nomeDaTabela, nomeDaColunaChavePrimaria);
+    strcat(nomeDaColunaChavePrimaria, "|");
 
     criarTabela(nomeDaTabela, nomeDaColunaChavePrimaria);
 }
