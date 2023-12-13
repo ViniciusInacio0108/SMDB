@@ -2,6 +2,7 @@ extern void showMainMenu()
 {
     printf("--- Bem vindo ao SGDB ITP ---\n\n");
     printf("O que deseja fazer:\n");
+    printf("0 - Encerrar programa\n");
     printf("1 - Criar nova tabela\n");
     printf("2 - Listar tabelas existentes\n");
     printf("3 - Criar nova linha em uma tabela existente\n");
