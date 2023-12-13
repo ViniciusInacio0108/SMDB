@@ -22,8 +22,9 @@ Essa função faz com que o seja criada uma tabela vazia. Nesse método é poss�
 
 Existem dois parâmetros para essa função. 
 
-!. nomeDaTabela : respectivamente ligada ao nome dado para a tabela e que será usar para criar o arquivo.
-2. nomeDaColunaChavePrimaria : respectivamente ligada ao nome dado para a coluna que servirá como chave primária para as linhas de dados.
+1. nomeDaTabela : respectivamente ligada ao nome dado para a tabela e que será usar para criar o arquivo.
+2. 
+3. nomeDaColunaChavePrimaria : respectivamente ligada ao nome dado para a coluna que servirá como chave primária para as linhas de dados.
 
 ## DEMAIS DETALHES
 
