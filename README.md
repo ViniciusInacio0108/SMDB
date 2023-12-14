@@ -19,17 +19,17 @@ Esse repositório é dedicado ao projeto de ITP no curso de TI da IMD. O projeto
 
 ## DOCUMENTAÇÂO DAS FUNÇÔES DO PROJETO
 
-### 1 - showMainMenu
+### 1 - showMainMenu (Vinícius e Lucas)
 Essa função faz com que o menu principal da nossa aplicação seja printado no terminal juntamente de uma mensagem de boas vindas.
 
 Não existem paramentros para esse método.
 
-### 2 - showCriarNovaTabelaMenu
+### 2 - showCriarNovaTabelaMenu (Vinícius e Lucas)
 Essa função faz com que o seja fornecido ao usuário o menu de criação de uma nova tabela. Nessa função ele poderá informar o nome da tabela a ser criada e qual o nome da coluna que servirá como chave primária para o usuário.
 
 Não existem paramentros para esse método.
 
-### 3 - criarTabela
+### 3 - criarTabela (Vinícius e Lucas)
 Essa função faz com que o seja criada uma tabela vazia. Nesse método é possível o usuário informar quantas colunas ele serão criadas e quais os seus respectivos nomes. Por fim ele gera um arquivo com esses dados salvos no padrão .txt onde o nome do arquivo será o nome fornecido para a tabela. EX: tabela_tal.txt
 
 Existem dois parâmetros para essa função. 
@@ -38,21 +38,21 @@ Existem dois parâmetros para essa função.
    
 3. nomeDaColunaChavePrimaria : respectivamente ligada ao nome dado para a coluna que servirá como chave primária para as linhas de dados.
 
-### 4 - listarTodasAsTabelas
+### 4 - listarTodasAsTabelas (Vinícius e Lucas)
 Essa função faz com que o usuário ganhe a habilidade de poder listar as tabelas que tem criadas. Caso não tenha nenhuma tabela criada o programa retornará essa informação.
 
 Essa função funciona basicamente pegando cada arquivo do diretório do banco de dados (DB) aonde fica salvo cada arquivo de tabela. Em seguida ele retorna o nome das tabelas criadas.
 
 Não existem paramentros para esse método.
 
-### 5 - deletarTabela
+### 5 - deletarTabela (Lucas e Vinícius)
 Essa função faz o delete de uma tabela pré existente e caso não exista retorna uma mensagem de erro.
 
 Essa função funciona basicamente pegando o nome dado pelo usuário e buscando na pasta de banco de dados (DB) se existe e deletando com a função incluída do C delete().
 
 Não existem paramentros para esse método.
 
-## DEMAIS DETALHES
+## O QUE FARÍAMOS DIFERENTE
 
 ## O QUE FICAMOS A DESEJAR
 
