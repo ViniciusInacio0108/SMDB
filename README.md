@@ -9,6 +9,10 @@ Esse repositório é dedicado ao projeto de ITP no curso de TI da IMD. O projeto
 
 ## COMO CONFIGURAR O PROJETO
 
+### VSCODE WINDOWS
+
+### CODEBLOCKS WINDOWS
+
 ## FEATURES DO PROJETO
 
 ### 1 - Criar uma nova tabela.
