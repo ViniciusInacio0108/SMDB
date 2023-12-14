@@ -1,6 +1,12 @@
 # SMDB
 Esse repositório é dedicado ao projeto de ITP no curso de TI da IMD. O projeto basicamente serve como um sistema básico de banco de dados relacional salvo em arquivos utilizando a linguagem C. Dentro do sistema você pode criar, listar, editar e excluir tabelas e dados. A seguir está a documentação completa do projeto. Boa leitura!
 
+##Autores:
+
+### Vinícius Inácio A. da Silva.
+
+### Lucas Cunha de Azevedo.
+
 ## COMO CONFIGURAR O PROJETO
 
 ## FEATURES DO PROJETO
