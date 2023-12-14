@@ -20,6 +20,13 @@ Não existem paramentros para esse método.
 ### 3 - criarTabela
 Essa função faz com que o seja criada uma tabela vazia. Nesse método é possível o usuário informar quantas colunas ele serão criadas e quais os seus respectivos nomes. Por fim ele gera um arquivo com esses dados salvos no padrão .txt onde o nome do arquivo será o nome fornecido para a tabela. EX: tabela_tal.txt
 
+### 4 - listarTodasAsTabelas
+Essa função faz com que o usuário ganhe a habilidade de poder listar as tabelas que tem criadas. Caso não tenha nenhuma tabela criada o programa retornará essa informação.
+
+Essa função funciona basicamente pegando cada arquivo do diretório do banco de dados (DB) aonde fica salvo cada arquivo de tabela. Em seguida ele retorna o nome das tabelas criadas.
+
+Não existem paramentros para esse método.
+
 Existem dois parâmetros para essa função. 
 
 1. nomeDaTabela : respectivamente ligada ao nome dado para a tabela e que será usar para criar o arquivo.
@@ -35,3 +42,5 @@ Existem dois parâmetros para essa função.
 2 - Poder criar tabelas, tuplas e strings em geral com espaços vazios.
 
 3 - Na própria criação da tabela já poder adicionar dados.
+
+4 - Retira ro ".txt" dos nomes da tabela quando fazemos a listagem.
