@@ -47,13 +47,4 @@ extern void criarTabela(char nomeDaTabela[25], char nomeDaColunaPrimaria[25])
     }
     fprintf_s(pFileTabelaSendoCriada, nomeDasColunasConcatenadas);
     fclose(pFileTabelaSendoCriada);
-
-    // criar arquivo onde podemos salvar os nomes de todas as tabelas criadas para podermos recuperar e listar todas elas
-    FILE *pListaDeTodasAsTabelasFile;
-
-    fopen_s(&pListaDeTodasAsTabelasFile, "lista_tabelas.txt", "a+");
-    // ver depois se duplicadas as tabelas pode dar BO
-    strcat(nomeDoArquivoFinal, "|");
-    fprintf_s(pListaDeTodasAsTabelasFile, nomeDoArquivoFinal);
-    fclose(pListaDeTodasAsTabelasFile);
 }
