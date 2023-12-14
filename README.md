@@ -5,6 +5,12 @@ Esse repositório é dedicado ao projeto de ITP no curso de TI da IMD. O projeto
 
 ## FEATURES DO PROJETO
 
+### 1 - Criar uma nova tabela.
+
+### 2 - Deletar uma tabela existente.
+
+### 3 - Listar as tabelas existentes.
+
 ## DOCUMENTAÇÂO DAS FUNÇÔES DO PROJETO
 
 ### 1 - showMainMenu
@@ -33,6 +39,13 @@ Essa função funciona basicamente pegando cada arquivo do diretório do banco d
 
 Não existem paramentros para esse método.
 
+### 5 - deletarTabela
+Essa função faz o delete de uma tabela pré existente e caso não exista retorna uma mensagem de erro.
+
+Essa função funciona basicamente pegando o nome dado pelo usuário e buscando na pasta de banco de dados (DB) se existe e deletando com a função incluída do C delete().
+
+Não existem paramentros para esse método.
+
 ## DEMAIS DETALHES
 
 ## O QUE FICAMOS A DESEJAR
@@ -44,3 +57,5 @@ Não existem paramentros para esse método.
 3 - Na própria criação da tabela já poder adicionar dados.
 
 4 - Retira ro ".txt" dos nomes da tabela quando fazemos a listagem.
+
+5 - Voltar na tela de deletar tabela.
