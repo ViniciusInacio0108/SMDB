@@ -3,11 +3,12 @@
 #include "functions/showMainMenu.h"
 #include "functions/showCriarNovaTabelaMenu.h"
 #include "functions/listarTodasAsTabelas.h"
+#include "functions/deletarTabela.h"
 
 int main(int argc, char const *argv[])
 {
     // variáveis da main
-    int respostaDoMainMenu;
+    int respostaDoMainMenu = 1;
     while (respostaDoMainMenu != 0)
     {
         // start up do menu principal
@@ -21,6 +22,10 @@ int main(int argc, char const *argv[])
         else if (respostaDoMainMenu == 2)
         {
             listarTodasAsTabelas();
+        }
+        else if (respostaDoMainMenu == 7)
+        {
+            deletarTabela();
         }
     }
 
