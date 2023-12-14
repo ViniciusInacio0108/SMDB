@@ -1,12 +1,35 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-#include "../constants/contants.h"
+#include <io.h>
 
 extern void listarTodasAsTabelas()
 {
-    // pegar arquivo contendo a lista
-    FILE *pListaDeTabelasFile;
+    // listar tabelas pegando os arquivos das tabelas dentro do diretório "DB"
+    intptr_t ffhandle;
+    struct _finddata_t ffinfo;
+    int temTabelaAlguma;
 
-    fopen_s(&pListaDeTabelasFile, NOME_ARQUIVO_LISTA_TABELAS, "r");
+    printf("\n");
+
+    if ((ffhandle = _findfirst("./DB/*.*", &ffinfo)) == -1)
+    {
+        perror("findfirst falhou");
+        exit(1);
+    }
+    do
+    {
+        // remover os pontos
+        if (strcmp(ffinfo.name, ".") == 1 && strcmp(ffinfo.name, "..") == 1)
+        {
+            printf("Tabela encontrada [ignore o .txt]: %s\n", ffinfo.name);
+            temTabelaAlguma = 1;
+        }
+    } while (_findnext(ffhandle, &ffinfo) == 0);
+    _findclose(ffhandle);
+
+    if (temTabelaAlguma != 1)
+    {
+        printf("Não existem tabelas criadas!\n");
+    }
+    printf("\n");
 }

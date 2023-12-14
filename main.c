@@ -2,6 +2,7 @@
 #include <string.h>
 #include "functions/showMainMenu.h"
 #include "functions/showCriarNovaTabelaMenu.h"
+#include "functions/listarTodasAsTabelas.h"
 
 int main(int argc, char const *argv[])
 {
@@ -16,7 +17,11 @@ int main(int argc, char const *argv[])
         if (respostaDoMainMenu == 1)
         {
             showCriarNovaTabelaMenu();
-                }
+        }
+        else if (respostaDoMainMenu == 2)
+        {
+            listarTodasAsTabelas();
+        }
     }
 
     printf("\nTchau!");
