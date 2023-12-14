@@ -3,9 +3,9 @@ Esse repositório é dedicado ao projeto de ITP no curso de TI da IMD. O projeto
 
 ## Autores:
 
-### Vinícius Inácio A. da Silva.
-
 ### Lucas Cunha de Azevedo.
+
+### Vinícius Inácio A. da Silva.
 
 ## COMO CONFIGURAR O PROJETO
 
