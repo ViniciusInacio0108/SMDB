@@ -6,6 +6,7 @@
 #include "functions/deletarTabela.h"
 #include "functions/adicionarLinha.h"
 #include "functions/listarLinhasDeUmaTabela.h"
+#include "functions/removerLinha.h"
 
 int main(int argc, char const *argv[])
 {
@@ -40,9 +41,14 @@ int main(int argc, char const *argv[])
         {
             litarTodasAsLinhasDeUmaTabela();
         }
+        else if (respostaDoMainMenu == 6)
+        {
+            removerLinha();
+        }
         else if (respostaDoMainMenu == 7)
         {
             deletarTabela();
         }
     }
+    printf("\nSaindo...");
 }

@@ -26,7 +26,10 @@ extern void litarTodasAsLinhasDeUmaTabela()
     printf("\n--- TODO OS DADOS DA TABELA: %s ---\n\n", tabelaEscolhida);
     while (fgets(linhaAtual, sizeof(linhaAtual), arquivoEscolhido) != NULL)
     {
-        printf(linhaAtual);
+        if (strcmp(linhaAtual, "") != 0 && strcmp(linhaAtual, "\0") != 0 && strcmp(linhaAtual, "\n") != 0)
+        {
+            printf(linhaAtual);
+        }
     }
 
     printf("\n");
