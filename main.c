@@ -38,6 +38,7 @@ int main(int argc, char const *argv[])
         }
         else if (respostaDoMainMenu == 4)
         {
+            litarTodasAsLinhasDeUmaTabela();
         }
         else if (respostaDoMainMenu == 7)
         {
