@@ -4,11 +4,14 @@
 #include "functions/showCriarNovaTabelaMenu.h"
 #include "functions/listarTodasAsTabelas.h"
 #include "functions/deletarTabela.h"
+#include "functions/adicionarLinha.h"
+#include "functions/listarLinhasDeUmaTabela.h"
 
 int main(int argc, char const *argv[])
 {
     // variáveis da main
     int respostaDoMainMenu = 1;
+    char opcaoLinha;
     while (respostaDoMainMenu != 0)
     {
         // start up do menu principal
@@ -23,13 +26,22 @@ int main(int argc, char const *argv[])
         {
             listarTodasAsTabelas();
         }
+        else if (respostaDoMainMenu == 3)
+        {
+            opcaoLinha = 'S';
+            while (opcaoLinha == 'S')
+            {
+                adicionarLinha();
+                printf("Deseja continuar adicionando linhas? [S/N]\n");
+                scanf(" %c", &opcaoLinha);
+            }
+        }
+        else if (respostaDoMainMenu == 4)
+        {
+        }
         else if (respostaDoMainMenu == 7)
         {
             deletarTabela();
         }
     }
-
-    printf("\nTchau!");
-
-    return 0;
 }

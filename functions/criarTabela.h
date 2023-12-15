@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "../constants/contants.h"
 
 extern void criarTabela(char nomeDaTabela[25], char nomeDaColunaPrimaria[25])
 {
