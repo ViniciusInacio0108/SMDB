@@ -18,6 +18,7 @@ Esse repositório é dedicado ao projeto de ITP no curso de TI da IMD. O projeto
 4. Abrir o CodeBlocks e dentro dele abrir a pasta extraída do projeto.
 5. Buildar e inicializar o projeto no arquivo "main.c".
 6. O compilador para Windows da lingaguem C já vem instalado no CodeBlocks. Não são necessárias mais mudanças.
+7. O GCC instalado pelo CodeBlock foi da versão 7.3.0.
 
 ## FEATURES DO PROJETO
 
