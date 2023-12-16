@@ -7,6 +7,7 @@
 #include "functions/adicionarLinha.h"
 #include "functions/listarLinhasDeUmaTabela.h"
 #include "functions/removerLinha.h"
+#include "functions/pesquisarNaTabela.h"
 
 int main(int argc, char const *argv[])
 {
@@ -37,18 +38,17 @@ int main(int argc, char const *argv[])
                 scanf(" %c", &opcaoLinha);
             }
         }
-        else if (respostaDoMainMenu == 4)
+        else if (respostaDoMainMenu == 5)
         {
-            litarTodasAsLinhasDeUmaTabela();
-        }
-        else if (respostaDoMainMenu == 6)
-        {
-            removerLinha();
+            pesquisaTabela();
         }
         else if (respostaDoMainMenu == 7)
         {
             deletarTabela();
         }
     }
-    printf("\nSaindo...");
+
+    printf("\nTchau!");
+
+    return 0;
 }
