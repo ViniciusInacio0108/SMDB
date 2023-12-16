@@ -102,7 +102,7 @@ Não existem paramentros para esse método.
 
 1. Melhorar a função de apagar a linha e deixar mais performática.
 
-2. melhorariamos a pesquisa dentro do sistema, já que não conseguimos adicionar todos os filtros.
+2. Melhorar a pesquisa dentro do sistema, já que não conseguimos adicionar todos os filtros.
 
 ## O QUE FICAMOS A DESEJAR
 
