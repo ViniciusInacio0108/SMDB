@@ -27,6 +27,14 @@ Esse repositório é dedicado ao projeto de ITP no curso de TI da IMD. O projeto
 
 ### 3 - Listar as tabelas existentes.
 
+### 4 - Listar os dados de uma tabela.
+
+### 5 - Pesquisar uma linha dentro de uma tabela.
+
+### 6 - Deletar uma linha dentro da tabela.
+
+### 7 - Adicionar uma linha dentro da tabela.
+
 ## DOCUMENTAÇÂO DAS FUNÇÔES DO PROJETO
 
 ### 1 - showMainMenu (Vinícius e Lucas)
@@ -84,13 +92,21 @@ Essa função faz com que o usuário selecione a tabela desejada, selecione a ch
 
 Não existem paramentros para esse método.
 
+### 9 - pesquisarNaTabela (Lucas e Vinícius)
+
+Essa função faz com que o usuário possa selecionar uma tabela desejada e pesquisar uma linha que corresponda ao valor da coluna selecionada por ele. Digamos que o usuário queira buscar uma linha pelo Id da chave primária e digite o valor desejado. Será retornado para ele o valor compartível e uma mensagem de erro caso não exista nenhum valor com o filtro informado.
+
+Não existem paramentros para esse método.
+
 ## O QUE FARÍAMOS DIFERENTE
 
 1. Melhorar a função de apagar a linha e deixar mais performática.
 
+2. melhorariamos a pesquisa dentro do sistema, já que não conseguimos adicionar todos os filtros.
+
 ## O QUE FICAMOS A DESEJAR
 
-1 - No momento falta polimento de menus e erros.
+1 - No momento falta polimento visual de menus e erros.
 
 2 - Poder criar tabelas, tuplas e strings em geral com espaços vazios.
 
@@ -101,3 +117,5 @@ Não existem paramentros para esse método.
 5 - Voltar na tela de deletar tabela.
 
 6 - O detalhe da última linha apagada de uma tabela fica vazia. Mas não afeta o sistema.
+
+7 - Adicionar a checagem de se já existe uma linha criada com a chave primária digitada.
